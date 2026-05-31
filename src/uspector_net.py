@@ -914,7 +914,7 @@ if __name__ == "__main__":
 
     elif isinstance(local, str) and "." in local:
         subnet = guess_subnet(local, 24)
-        logging.info(f"Detected subnet: {subnet}")
+        logging.info(f"Detected Subnet: {subnet}")
 
     else:
         logging.warning("Subnet guessing skipped (IPv6 or no IP)")
@@ -946,9 +946,10 @@ def show_menu():
 
     print(f"{'scan -L':10} LAN scan (devices and ports)")
     print(f"{'scan -R':10} Custom IP range scan")
-    print(f"{'scan -T':10} Device traffic inspection")
     print(f"{'scan -S':10} HTTP service scan (LAN only)")
-    print(f"{'help':10} Display menu")
+    print(f"{'scan -T':10} Device traffic inspection")
+
+    print(f"{'help':10} Show menu")
     print(f"{'exit':10} Exit")
     
 show_menu()
