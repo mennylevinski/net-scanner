@@ -2,10 +2,16 @@
 All notable changes to **Uspector Network Scanner** are documented in this file.
 
 ---
-
-## [1.7.0] – 2026-05-31 Latest
+## [1.8.0] – 2026-06-14 Latest
 ### Added
-- Added HTTP service scanner for local network (scan -S)
+- Added a new SMB detection scan option
+- Modified several scan commands in the CLI menu
+
+---
+
+## [1.7.0] – 2026-05-31
+### Added
+- Added HTTP service scanner for local network
 - Improved CLI menu layout and usability
 - Windows executable is now digitally signed 
 
