@@ -1,7 +1,7 @@
-<div align="center" style="line-height: 0;">
-    <a href="https://github.com/mennylevinski/uspector-net">
-        <img src="media/uspector-main-logo.png" alt="Uspector Network Scanner logo" width="200" height="200">
-    </a>
+<div align="center">
+
+# Uspector Network Scanner
+
 </div>
 
 <br>
@@ -14,7 +14,7 @@
 <br>
 
 <a name="overview"></a>
-# Uspector Network Scanner
+
 
 **Uspector** is a lightweight, cross-platform Python network scanner that enables device discovery and open port detection across local IPv4 subnets, including Wi-Fi and Ethernet.
 Built for ethical diagnostics, security awareness, and administrative auditing, it is suitable for both personal and organizational use.
